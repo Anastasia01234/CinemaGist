@@ -139,7 +139,6 @@ const EditUser = () => {
         />
         <Button type="submit">Submit</Button>
       </form>
-      {url}
       <Button type="button" onClick={deleteClick}>Delete</Button>
     </Card>
   );
