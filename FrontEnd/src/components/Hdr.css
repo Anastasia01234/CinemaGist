@@ -1,0 +1,24 @@
+.hdr {
+    text-align: center;
+    background-color: white; 
+    padding: 80px 0 90px 0; 
+}
+
+.hdr h1 {
+    margin: 0 auto;
+    color: rgb(10, 253, 144);
+}
+
+.body-content {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 20px auto; /* Adjust margin for spacing */
+    padding: 20px;
+    background-color: #f4f4f4; /* Optional background color for body content */
+    /* Add other styling properties */
+  }
+  
+  .body-content img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; 
+    margin-bottom: 20px; 
+  }

@@ -1,0 +1,23 @@
+.users {
+  margin: 2rem auto 4rem; /* Increased bottom margin to create more space */
+  width: 90%;
+  max-width: 40rem;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.review-card {
+  margin-top: 0.5rem;
+}
+.users-container {
+  margin-bottom: 20rem; 
+}
+.users-form-gap {
+  margin-bottom: 20px;
+}
+
