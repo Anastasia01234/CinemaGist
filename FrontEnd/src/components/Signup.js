@@ -3,6 +3,7 @@ import React, { useContext, useState } from "react";
 import { Alert, Button, Form } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import UserContext from "../context/UserContext";
+import './Card.css';
 
 function Signup() {
     const [email, setEmail] = useState();
@@ -39,7 +40,7 @@ function Signup() {
     }
 
     return (
-        <div>
+        <div className="card">
             <div>
                 <h2>Sign Up</h2>
                 {error && <Alert variant="danger">{error}</Alert>}
