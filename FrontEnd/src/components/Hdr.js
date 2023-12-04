@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Hdr.css';
+import './Button.css';
 
 const Hdr = () => {
   const [token, setToken] = useState();
@@ -30,8 +31,12 @@ const Hdr = () => {
       <div className="hdr">
   
         <div className="button-container" style={signInButtonStyle}>
-          <Link to="/login">Login</Link>
-          <Link to="/signup">Signup</Link>
+          <Link to="/login">
+            <button className="button">Login</button>
+          </Link>
+          <Link to="/signup">
+            <button className='button'>Signup</button>
+          </Link>
         </div>
   
         {/* Placeholder for absolute images */}
